@@ -1,0 +1,7 @@
+# Only needed to train / evaluate / re-export the terrain model (python -m ml.*).
+-r requirements.txt
+torch>=2.2
+segmentation-models-pytorch>=0.3.3
+datasets>=2.18
+opencv-python>=4.9
+matplotlib>=3.8
