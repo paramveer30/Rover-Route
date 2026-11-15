@@ -1,0 +1,82 @@
+{
+ "n": 100,
+ "rows": [
+  {
+   "config": "calibrated, block P>=0.5 (shipped)",
+   "success": 0.72,
+   "success_ci95": [
+    0.63,
+    0.8
+   ],
+   "reached": 0.76,
+   "hazard_entries": 0.06,
+   "route_ratio": 1.0861065789473685
+  },
+  {
+   "config": "raw T=1, block P>=0.5",
+   "success": 0.71,
+   "success_ci95": [
+    0.62,
+    0.79
+   ],
+   "reached": 0.76,
+   "hazard_entries": 0.07,
+   "route_ratio": 1.0763381578947366
+  },
+  {
+   "config": "calibrated, block P>=0.3",
+   "success": 0.72,
+   "success_ci95": [
+    0.63,
+    0.8
+   ],
+   "reached": 0.74,
+   "hazard_entries": 0.04,
+   "route_ratio": 1.0729743243243244
+  },
+  {
+   "config": "raw T=1, block P>=0.3",
+   "success": 0.72,
+   "success_ci95": [
+    0.63,
+    0.8
+   ],
+   "reached": 0.75,
+   "hazard_entries": 0.05,
+   "route_ratio": 1.0627439999999997
+  },
+  {
+   "config": "calibrated, block P>=0.7",
+   "success": 0.76,
+   "success_ci95": [
+    0.67,
+    0.84
+   ],
+   "reached": 0.8,
+   "hazard_entries": 0.06,
+   "route_ratio": 1.08482375
+  },
+  {
+   "config": "raw T=1, block P>=0.7",
+   "success": 0.73,
+   "success_ci95": [
+    0.64,
+    0.81
+   ],
+   "reached": 0.78,
+   "hazard_entries": 0.07,
+   "route_ratio": 1.0748935897435898
+  },
+  {
+   "config": "calibrated, no uncertainty cost",
+   "success": 0.71,
+   "success_ci95": [
+    0.62,
+    0.79
+   ],
+   "reached": 0.76,
+   "hazard_entries": 0.09,
+   "route_ratio": 1.0967447368421053
+  }
+ ]
+}
