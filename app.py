@@ -69,28 +69,43 @@ st.title("Rover-Route")
 st.caption("A Mars rover that uses a terrain model trained on real NASA Curiosity images to plan around sand.")
 
 with st.sidebar:
+    st.header("Mission")
     seed = st.number_input("World seed", 0, 999, DEMO_SEED)
     right = st.selectbox("Compare against", ["model", "oracle"], format_func=LABELS.get)
+
+    st.header("Display")
     show_truth = st.toggle("Show true hazards", False)
-    st.markdown("**Legend**  \n🟫 soil · ⬜ bedrock · 🟨 sand · 🟥 big rock  \n🟪 too steep · "
-                "dark = unseen  \ncyan = planned route · white = driven")
+
+    st.header("Legend")
+    st.markdown("**Terrain**  \n🟫 soil · ⬜ bedrock · 🟨 sand · 🟥 big rock  \n🟪 too steep · dark = unseen")
+    st.markdown("**Routes**  \ncyan = planned route · white = driven")
 
 world, missions = simulate(int(seed))
 pair = [missions["geometry"], missions[right]]
 last = max(len(m.frames) for m in pair) - 1
-step = st.slider("Step", 0, last, last, key=f"step-{seed}-{right}")
-play = st.button("▶ Play mission")
+
+st.subheader("Mission playback")
+ctrl_step, ctrl_play = st.columns([5, 1], vertical_alignment="bottom")
+with ctrl_step:
+    step = st.slider("Step", 0, last, last, key=f"step-{seed}-{right}")
+with ctrl_play:
+    play = st.button("▶ Play mission", width="stretch")
 
 hazards = hazard_mask(world)
-cols = st.columns(2)
+*cols, cam_col = st.columns(3, gap="medium")
 slots = [(c.empty(), c.empty()) for c in cols]
+cam_title, cam_image = cam_col.empty(), cam_col.empty()
 
 
 def draw(step: int) -> None:
     for (title, image), mission in zip(slots, pair):
         hits = hazard_entries(mission.trajectory[: step + 1], hazards)
-        title.markdown(f"### {LABELS[mission.mode]}\n{'🔴' if hits else '🟢'} hazards hit: **{hits}**")
+        title.markdown(f"#### {LABELS[mission.mode]}\n{'🔴' if hits else '🟢'} hazards hit: **{hits}**")
         image.image(render(world, mission, step, show_truth), width="stretch")
+    cell = pair[1].frames[min(step, len(pair[1].frames) - 1)].cell
+    cam_title.markdown(f"#### Rover camera + model\n{LABELS[pair[1].mode]} view")
+    cam_image.image(camera(world, cell), caption=f"Curiosity NAVCAM tile {world.tile_at(cell)} with model overlay",
+                    width="stretch")
 
 
 if play:
@@ -100,24 +115,18 @@ if play:
 draw(step)
 
 st.divider()
-left, mid, rgt = st.columns([1.2, 1, 1])
-with left:
-    st.subheader("Results on this world")
-    rows = []
-    for mode, mission in missions.items():
-        sc = score(world, mission.trajectory, mission.reached)
-        rows.append({"rover": LABELS[mode], "reached": sc["reached"], "hazard entries": sc["hazard_entries"],
-                     "success": sc["success"], "driven (m)": sc["path_m"], "stop": mission.stop_reason})
-    st.dataframe(rows, hide_index=True, width="stretch")
-with mid:
-    st.subheader("Route decision")
-    smart = missions["model"]
-    card = decision_card(world, smart.belief, world.start, world.goal, smart.trajectory)
-    st.info(card["summary"])
-    st.caption(f"driven {card['chosen_m']} m vs terrain-blind shortest {card['shortest_m']} m "
-               "(computed from the rover's own belief, not the true map)")
-with rgt:
-    st.subheader("Rover camera + model")
-    cell = pair[1].frames[min(step, len(pair[1].frames) - 1)].cell
-    st.image(camera(world, cell), caption=f"Curiosity NAVCAM tile {world.tile_at(cell)} with model overlay",
-             width="stretch")
+st.subheader("Results on this world")
+rows = []
+for mode, mission in missions.items():
+    sc = score(world, mission.trajectory, mission.reached)
+    rows.append({"rover": LABELS[mode], "reached": sc["reached"], "hazard entries": sc["hazard_entries"],
+                 "success": sc["success"], "driven (m)": sc["path_m"], "stop": mission.stop_reason})
+st.dataframe(rows, hide_index=True, width="stretch")
+
+st.divider()
+st.subheader("Route decision")
+smart = missions["model"]
+card = decision_card(world, smart.belief, world.start, world.goal, smart.trajectory)
+st.info(card["summary"])
+st.caption(f"driven {card['chosen_m']} m vs terrain-blind shortest {card['shortest_m']} m "
+           "(computed from the rover's own belief, not the true map)")
