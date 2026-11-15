@@ -8,6 +8,7 @@ import streamlit as st
 from PIL import Image, ImageDraw
 
 from roverroute.card import decision_card
+from roverroute.data import frame_path, overlay_path
 from roverroute.metrics import hazard_entries, score
 from roverroute.rover import run_mission
 from roverroute.world import MAX_SLOPE_DEG, SIZE, build_world, hazard_mask
@@ -58,6 +59,12 @@ def render(world, mission, step: int, show_truth: bool) -> Image.Image:
     return img
 
 
+def camera(world, cell) -> Image.Image:
+    tile = world.tile_at(cell)
+    base = Image.open(frame_path(tile)).convert("RGBA")
+    return Image.alpha_composite(base, Image.open(overlay_path(tile)).convert("RGBA").resize(base.size))
+
+
 st.title("Rover-Route")
 st.caption("A Mars rover that uses a terrain model trained on real NASA Curiosity images to plan around sand.")
 
@@ -93,7 +100,7 @@ if play:
 draw(step)
 
 st.divider()
-left, mid = st.columns([1.2, 1])
+left, mid, rgt = st.columns([1.2, 1, 1])
 with left:
     st.subheader("Results on this world")
     rows = []
@@ -109,3 +116,8 @@ with mid:
     st.info(card["summary"])
     st.caption(f"driven {card['chosen_m']} m vs terrain-blind shortest {card['shortest_m']} m "
                "(computed from the rover's own belief, not the true map)")
+with rgt:
+    st.subheader("Rover camera + model")
+    cell = pair[1].frames[min(step, len(pair[1].frames) - 1)].cell
+    st.image(camera(world, cell), caption=f"Curiosity NAVCAM tile {world.tile_at(cell)} with model overlay",
+             width="stretch")
