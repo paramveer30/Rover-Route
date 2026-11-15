@@ -1,0 +1,3067 @@
+{
+ "n": 100,
+ "git": "2e71e69",
+ "temperature": 1.5186748519290354,
+ "seconds": 62.64703009999903,
+ "modes": {
+  "geometry": {
+   "n": 100,
+   "success_rate": 0.46,
+   "success_ci95": [
+    0.36,
+    0.55
+   ],
+   "reached_rate": 1.0,
+   "hazard_entries_mean": 0.71,
+   "hazard_entries_ci95": [
+    0.57,
+    0.86
+   ],
+   "route_ratio_mean": 1.0089640000000002,
+   "route_ratio_n": 100,
+   "replans_mean": 10.67
+  },
+  "model": {
+   "n": 100,
+   "success_rate": 0.72,
+   "success_ci95": [
+    0.63,
+    0.8
+   ],
+   "reached_rate": 0.76,
+   "hazard_entries_mean": 0.06,
+   "hazard_entries_ci95": [
+    0.01,
+    0.12
+   ],
+   "route_ratio_mean": 1.0861065789473685,
+   "route_ratio_n": 76,
+   "replans_mean": 20.05
+  },
+  "oracle": {
+   "n": 100,
+   "success_rate": 1.0,
+   "success_ci95": [
+    1.0,
+    1.0
+   ],
+   "reached_rate": 1.0,
+   "hazard_entries_mean": 0.0,
+   "hazard_entries_ci95": [
+    0.0,
+    0.0
+   ],
+   "route_ratio_mean": 1.080177,
+   "route_ratio_n": 100,
+   "replans_mean": 16.39
+  }
+ },
+ "missions": {
+  "geometry": [
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 43.53,
+    "route_ratio": 0.937,
+    "seed": 0,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 47.7,
+    "route_ratio": 1.0465,
+    "seed": 1,
+    "replans": 19,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 2,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 38.73,
+    "route_ratio": 1.0,
+    "seed": 3,
+    "replans": 3,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 46.46,
+    "route_ratio": 0.9694,
+    "seed": 4,
+    "replans": 19,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 43.82,
+    "route_ratio": 0.9677,
+    "seed": 5,
+    "replans": 8,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 6,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 42.06,
+    "route_ratio": 0.8496,
+    "seed": 7,
+    "replans": 12,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 38.71,
+    "route_ratio": 1.0076,
+    "seed": 8,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 37.99,
+    "route_ratio": 1.0157,
+    "seed": 9,
+    "replans": 12,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 37.54,
+    "route_ratio": 1.0322,
+    "seed": 10,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.7,
+    "route_ratio": 1.0516,
+    "seed": 11,
+    "replans": 15,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.36,
+    "route_ratio": 1.0433,
+    "seed": 12,
+    "replans": 8,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 43.94,
+    "route_ratio": 0.9341,
+    "seed": 13,
+    "replans": 8,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 40.58,
+    "route_ratio": 1.0599,
+    "seed": 14,
+    "replans": 15,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 44.7,
+    "route_ratio": 1.0701,
+    "seed": 15,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 39.3,
+    "route_ratio": 1.055,
+    "seed": 16,
+    "replans": 16,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 36.37,
+    "route_ratio": 0.9764,
+    "seed": 17,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 40.31,
+    "route_ratio": 0.8676,
+    "seed": 18,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 19,
+    "replans": 8,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.53,
+    "route_ratio": 1.0277,
+    "seed": 20,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 24.59,
+    "route_ratio": 0.9545,
+    "seed": 21,
+    "replans": 4,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 41.18,
+    "route_ratio": 1.0144,
+    "seed": 22,
+    "replans": 8,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 62.77,
+    "route_ratio": 1.3261,
+    "seed": 23,
+    "replans": 27,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 41.2,
+    "route_ratio": 0.8787,
+    "seed": 24,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.96,
+    "route_ratio": 1.0161,
+    "seed": 25,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 43.23,
+    "route_ratio": 0.9306,
+    "seed": 26,
+    "replans": 15,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 40.53,
+    "route_ratio": 0.9518,
+    "seed": 27,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 45.87,
+    "route_ratio": 0.8716,
+    "seed": 28,
+    "replans": 15,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 45.58,
+    "route_ratio": 1.0264,
+    "seed": 29,
+    "replans": 18,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.65,
+    "route_ratio": 1.0282,
+    "seed": 30,
+    "replans": 8,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0073,
+    "seed": 31,
+    "replans": 2,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.06,
+    "route_ratio": 1.0436,
+    "seed": 32,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 41.48,
+    "route_ratio": 1.0291,
+    "seed": 33,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.82,
+    "route_ratio": 1.0585,
+    "seed": 34,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 42.06,
+    "route_ratio": 0.9054,
+    "seed": 35,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 41.37,
+    "route_ratio": 1.0521,
+    "seed": 36,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 45.41,
+    "route_ratio": 0.9936,
+    "seed": 37,
+    "replans": 19,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.06,
+    "route_ratio": 1.0141,
+    "seed": 38,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 44.7,
+    "route_ratio": 1.0481,
+    "seed": 39,
+    "replans": 15,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 44.11,
+    "route_ratio": 1.0415,
+    "seed": 40,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 43.18,
+    "route_ratio": 1.1684,
+    "seed": 41,
+    "replans": 20,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 46.87,
+    "route_ratio": 0.9491,
+    "seed": 42,
+    "replans": 15,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 0.9928,
+    "seed": 43,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 45.33,
+    "route_ratio": 1.1576,
+    "seed": 44,
+    "replans": 22,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 36.66,
+    "route_ratio": 0.969,
+    "seed": 45,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 36.96,
+    "route_ratio": 1.0161,
+    "seed": 46,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 42.06,
+    "route_ratio": 0.9472,
+    "seed": 47,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 48,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0073,
+    "seed": 49,
+    "replans": 5,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 40.99,
+    "route_ratio": 1.037,
+    "seed": 50,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 44.11,
+    "route_ratio": 1.0415,
+    "seed": 51,
+    "replans": 15,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 40.32,
+    "route_ratio": 1.0299,
+    "seed": 52,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 44.99,
+    "route_ratio": 1.0696,
+    "seed": 53,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 37.37,
+    "route_ratio": 1.0275,
+    "seed": 54,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 41.77,
+    "route_ratio": 1.0363,
+    "seed": 55,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 42.16,
+    "route_ratio": 1.0213,
+    "seed": 56,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 0.9928,
+    "seed": 57,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 41.18,
+    "route_ratio": 1.0144,
+    "seed": 58,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 40.23,
+    "route_ratio": 1.0,
+    "seed": 59,
+    "replans": 4,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.89,
+    "route_ratio": 1.0145,
+    "seed": 60,
+    "replans": 4,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.65,
+    "route_ratio": 1.0139,
+    "seed": 61,
+    "replans": 6,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 43.82,
+    "route_ratio": 0.9553,
+    "seed": 62,
+    "replans": 17,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 47.16,
+    "route_ratio": 1.0763,
+    "seed": 63,
+    "replans": 18,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.54,
+    "route_ratio": 1.0222,
+    "seed": 64,
+    "replans": 12,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 39.71,
+    "route_ratio": 1.0919,
+    "seed": 65,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 45.11,
+    "route_ratio": 1.0578,
+    "seed": 66,
+    "replans": 12,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 40.6,
+    "route_ratio": 0.8965,
+    "seed": 67,
+    "replans": 1,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 41.77,
+    "route_ratio": 1.0289,
+    "seed": 68,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 39.94,
+    "route_ratio": 1.0074,
+    "seed": 69,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.89,
+    "route_ratio": 1.0072,
+    "seed": 70,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 48.23,
+    "route_ratio": 1.0127,
+    "seed": 71,
+    "replans": 16,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.94,
+    "route_ratio": 1.0374,
+    "seed": 72,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 55.82,
+    "route_ratio": 1.2703,
+    "seed": 73,
+    "replans": 24,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 45.53,
+    "route_ratio": 1.0501,
+    "seed": 74,
+    "replans": 16,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 37.41,
+    "route_ratio": 0.948,
+    "seed": 75,
+    "replans": 3,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 29.42,
+    "route_ratio": 0.9436,
+    "seed": 76,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 43.94,
+    "route_ratio": 1.0374,
+    "seed": 77,
+    "replans": 6,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.36,
+    "route_ratio": 1.0433,
+    "seed": 78,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 36.37,
+    "route_ratio": 0.9186,
+    "seed": 79,
+    "replans": 5,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 41.18,
+    "route_ratio": 1.0144,
+    "seed": 80,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 42.06,
+    "route_ratio": 0.8086,
+    "seed": 81,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.96,
+    "route_ratio": 1.0161,
+    "seed": 82,
+    "replans": 8,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 38.13,
+    "route_ratio": 0.9129,
+    "seed": 83,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 42.36,
+    "route_ratio": 0.9117,
+    "seed": 84,
+    "replans": 6,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 85,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 46.87,
+    "route_ratio": 1.0418,
+    "seed": 86,
+    "replans": 20,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 34.54,
+    "route_ratio": 1.0173,
+    "seed": 87,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 42.06,
+    "route_ratio": 1.0361,
+    "seed": 88,
+    "replans": 6,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 42.36,
+    "route_ratio": 1.0433,
+    "seed": 89,
+    "replans": 8,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 28.63,
+    "route_ratio": 1.0539,
+    "seed": 90,
+    "replans": 4,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 39.59,
+    "route_ratio": 1.0227,
+    "seed": 91,
+    "replans": 18,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.53,
+    "route_ratio": 1.0277,
+    "seed": 92,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.89,
+    "route_ratio": 1.0072,
+    "seed": 93,
+    "replans": 4,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 0.9928,
+    "seed": 94,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 48.51,
+    "route_ratio": 1.1144,
+    "seed": 95,
+    "replans": 18,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 41.77,
+    "route_ratio": 0.8935,
+    "seed": 96,
+    "replans": 5,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 42.65,
+    "route_ratio": 0.9066,
+    "seed": 97,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 42.94,
+    "route_ratio": 1.0209,
+    "seed": 98,
+    "replans": 12,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 37.83,
+    "route_ratio": 1.0403,
+    "seed": 99,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   }
+  ],
+  "model": [
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.46,
+    "route_ratio": 1.0,
+    "seed": 0,
+    "replans": 19,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 48.58,
+    "route_ratio": 1.0658,
+    "seed": 1,
+    "replans": 27,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0073,
+    "seed": 2,
+    "replans": 1,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 74.13,
+    "route_ratio": null,
+    "seed": 3,
+    "replans": 44,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 74.06,
+    "route_ratio": 1.5455,
+    "seed": 4,
+    "replans": 57,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 0.0,
+    "route_ratio": null,
+    "seed": 5,
+    "replans": 0,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 6,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 62.48,
+    "route_ratio": 1.262,
+    "seed": 7,
+    "replans": 40,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 49.49,
+    "route_ratio": null,
+    "seed": 8,
+    "replans": 39,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 50.37,
+    "route_ratio": null,
+    "seed": 9,
+    "replans": 29,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.66,
+    "route_ratio": 1.0081,
+    "seed": 10,
+    "replans": 5,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 44.99,
+    "route_ratio": 1.0132,
+    "seed": 11,
+    "replans": 23,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.89,
+    "route_ratio": 1.0072,
+    "seed": 12,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 60.36,
+    "route_ratio": 1.283,
+    "seed": 13,
+    "replans": 39,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 0.0,
+    "route_ratio": null,
+    "seed": 14,
+    "replans": 0,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.06,
+    "route_ratio": 1.007,
+    "seed": 15,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.18,
+    "route_ratio": 1.1323,
+    "seed": 16,
+    "replans": 21,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 36.3,
+    "route_ratio": null,
+    "seed": 17,
+    "replans": 28,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.46,
+    "route_ratio": 1.0,
+    "seed": 18,
+    "replans": 21,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 19,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.36,
+    "route_ratio": 1.0,
+    "seed": 20,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 0.0,
+    "route_ratio": null,
+    "seed": 21,
+    "replans": 0,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 22,
+    "replans": 1,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 59.77,
+    "route_ratio": 1.2627,
+    "seed": 23,
+    "replans": 30,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 0.0,
+    "route_ratio": null,
+    "seed": 24,
+    "replans": 0,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 25,
+    "replans": 12,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 51.97,
+    "route_ratio": 1.1187,
+    "seed": 26,
+    "replans": 33,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 45.16,
+    "route_ratio": 1.0607,
+    "seed": 27,
+    "replans": 27,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 30.18,
+    "route_ratio": null,
+    "seed": 28,
+    "replans": 22,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.16,
+    "route_ratio": 1.0396,
+    "seed": 29,
+    "replans": 25,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 41.77,
+    "route_ratio": 1.0071,
+    "seed": 30,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 31,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0073,
+    "seed": 32,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 33,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 68.72,
+    "route_ratio": 1.5535,
+    "seed": 34,
+    "replans": 40,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.46,
+    "route_ratio": 1.0,
+    "seed": 35,
+    "replans": 25,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 62.3,
+    "route_ratio": null,
+    "seed": 36,
+    "replans": 62,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.87,
+    "route_ratio": 1.0256,
+    "seed": 37,
+    "replans": 22,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.06,
+    "route_ratio": 1.0141,
+    "seed": 38,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.65,
+    "route_ratio": 1.0,
+    "seed": 39,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.23,
+    "route_ratio": 1.0207,
+    "seed": 40,
+    "replans": 16,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 41.06,
+    "route_ratio": 1.111,
+    "seed": 41,
+    "replans": 19,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 57.06,
+    "route_ratio": 1.1555,
+    "seed": 42,
+    "replans": 40,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 43,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 0.0,
+    "route_ratio": null,
+    "seed": 44,
+    "replans": 0,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 0.0,
+    "route_ratio": null,
+    "seed": 45,
+    "replans": 0,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 46,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 43.53,
+    "route_ratio": 0.9802,
+    "seed": 47,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 48,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 49,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 38.16,
+    "route_ratio": null,
+    "seed": 50,
+    "replans": 14,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.94,
+    "route_ratio": 1.0138,
+    "seed": 51,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 66.08,
+    "route_ratio": null,
+    "seed": 52,
+    "replans": 49,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.65,
+    "route_ratio": 1.0139,
+    "seed": 53,
+    "replans": 17,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.78,
+    "route_ratio": 1.0114,
+    "seed": 54,
+    "replans": 3,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0073,
+    "seed": 55,
+    "replans": 4,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 0.0,
+    "route_ratio": null,
+    "seed": 56,
+    "replans": 0,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 82.23,
+    "route_ratio": null,
+    "seed": 57,
+    "replans": 58,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 58,
+    "replans": 1,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 49.37,
+    "route_ratio": null,
+    "seed": 59,
+    "replans": 29,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0073,
+    "seed": 60,
+    "replans": 1,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.23,
+    "route_ratio": 1.0279,
+    "seed": 61,
+    "replans": 16,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 47.92,
+    "route_ratio": 1.0447,
+    "seed": 62,
+    "replans": 31,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 44.41,
+    "route_ratio": 1.0134,
+    "seed": 63,
+    "replans": 18,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 37.13,
+    "route_ratio": null,
+    "seed": 64,
+    "replans": 19,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 65,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.23,
+    "route_ratio": 1.0137,
+    "seed": 66,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.99,
+    "route_ratio": 1.0377,
+    "seed": 67,
+    "replans": 22,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.89,
+    "route_ratio": 1.0072,
+    "seed": 68,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 61.39,
+    "route_ratio": null,
+    "seed": 69,
+    "replans": 39,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 91.05,
+    "route_ratio": null,
+    "seed": 70,
+    "replans": 62,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 2,
+    "success": false,
+    "path_m": 72.99,
+    "route_ratio": null,
+    "seed": 71,
+    "replans": 56,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.94,
+    "route_ratio": 1.0138,
+    "seed": 72,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 54.65,
+    "route_ratio": 1.2437,
+    "seed": 73,
+    "replans": 25,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.36,
+    "route_ratio": 1.0,
+    "seed": 74,
+    "replans": 16,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 75.41,
+    "route_ratio": null,
+    "seed": 75,
+    "replans": 52,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 33.01,
+    "route_ratio": 1.0586,
+    "seed": 76,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 42.36,
+    "route_ratio": 1.0,
+    "seed": 77,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 78,
+    "replans": 6,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 44.3,
+    "route_ratio": 1.1189,
+    "seed": 79,
+    "replans": 28,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.89,
+    "route_ratio": 1.0072,
+    "seed": 80,
+    "replans": 5,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 66.75,
+    "route_ratio": 1.2831,
+    "seed": 81,
+    "replans": 37,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.66,
+    "route_ratio": 1.0081,
+    "seed": 82,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 91.94,
+    "route_ratio": null,
+    "seed": 83,
+    "replans": 71,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 47.92,
+    "route_ratio": 1.0315,
+    "seed": 84,
+    "replans": 32,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 85,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 45.58,
+    "route_ratio": 1.013,
+    "seed": 86,
+    "replans": 24,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 34.25,
+    "route_ratio": 1.0086,
+    "seed": 87,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 88,
+    "replans": 2,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.89,
+    "route_ratio": 1.0072,
+    "seed": 89,
+    "replans": 6,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 27.16,
+    "route_ratio": 1.0,
+    "seed": 90,
+    "replans": 2,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 103.9,
+    "route_ratio": 2.6838,
+    "seed": 91,
+    "replans": 61,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.94,
+    "route_ratio": 1.0138,
+    "seed": 92,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": false,
+    "hazard_entries": 0,
+    "success": false,
+    "path_m": 32.46,
+    "route_ratio": null,
+    "seed": 93,
+    "replans": 23,
+    "stop_reason": "no route to goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 94,
+    "replans": 5,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 89.77,
+    "route_ratio": 2.0624,
+    "seed": 95,
+    "replans": 66,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 49.09,
+    "route_ratio": 1.0501,
+    "seed": 96,
+    "replans": 32,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 1,
+    "success": false,
+    "path_m": 48.82,
+    "route_ratio": 1.0378,
+    "seed": 97,
+    "replans": 21,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.06,
+    "route_ratio": 1.0,
+    "seed": 98,
+    "replans": 8,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.96,
+    "route_ratio": 1.0161,
+    "seed": 99,
+    "replans": 12,
+    "stop_reason": "reached goal"
+   }
+  ],
+  "oracle": [
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.87,
+    "route_ratio": 1.0089,
+    "seed": 0,
+    "replans": 19,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 47.41,
+    "route_ratio": 1.0401,
+    "seed": 1,
+    "replans": 25,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 2,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.49,
+    "route_ratio": 1.0454,
+    "seed": 3,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 75.77,
+    "route_ratio": 1.5812,
+    "seed": 4,
+    "replans": 53,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.87,
+    "route_ratio": 1.035,
+    "seed": 5,
+    "replans": 24,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 6,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 65.6,
+    "route_ratio": 1.325,
+    "seed": 7,
+    "replans": 39,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 49.08,
+    "route_ratio": 1.2774,
+    "seed": 8,
+    "replans": 29,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 37.41,
+    "route_ratio": 1.0,
+    "seed": 9,
+    "replans": 4,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 10,
+    "replans": 4,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 44.7,
+    "route_ratio": 1.0066,
+    "seed": 11,
+    "replans": 18,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.89,
+    "route_ratio": 1.0072,
+    "seed": 12,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 61.06,
+    "route_ratio": 1.2981,
+    "seed": 13,
+    "replans": 32,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.04,
+    "route_ratio": 1.0459,
+    "seed": 14,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.06,
+    "route_ratio": 1.007,
+    "seed": 15,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.76,
+    "route_ratio": 1.0944,
+    "seed": 16,
+    "replans": 23,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 37.25,
+    "route_ratio": 1.0,
+    "seed": 17,
+    "replans": 15,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 59.53,
+    "route_ratio": 1.2814,
+    "seed": 18,
+    "replans": 32,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 19,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.36,
+    "route_ratio": 1.0,
+    "seed": 20,
+    "replans": 16,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 25.76,
+    "route_ratio": 1.0,
+    "seed": 21,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 22,
+    "replans": 1,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 59.77,
+    "route_ratio": 1.2627,
+    "seed": 23,
+    "replans": 28,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 51.18,
+    "route_ratio": 1.0916,
+    "seed": 24,
+    "replans": 29,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 25,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 47.04,
+    "route_ratio": 1.0126,
+    "seed": 26,
+    "replans": 25,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.58,
+    "route_ratio": 1.0,
+    "seed": 27,
+    "replans": 21,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 53.87,
+    "route_ratio": 1.0236,
+    "seed": 28,
+    "replans": 36,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.11,
+    "route_ratio": 1.0384,
+    "seed": 29,
+    "replans": 23,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 41.48,
+    "route_ratio": 1.0,
+    "seed": 30,
+    "replans": 8,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 31,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0073,
+    "seed": 32,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 33,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 45.11,
+    "route_ratio": 1.0199,
+    "seed": 34,
+    "replans": 18,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 47.87,
+    "route_ratio": 1.0304,
+    "seed": 35,
+    "replans": 19,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 41.66,
+    "route_ratio": 1.0596,
+    "seed": 36,
+    "replans": 19,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 46.28,
+    "route_ratio": 1.0128,
+    "seed": 37,
+    "replans": 23,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.06,
+    "route_ratio": 1.0141,
+    "seed": 38,
+    "replans": 16,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.65,
+    "route_ratio": 1.0,
+    "seed": 39,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.82,
+    "route_ratio": 1.0346,
+    "seed": 40,
+    "replans": 15,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 38.25,
+    "route_ratio": 1.035,
+    "seed": 41,
+    "replans": 17,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 62.72,
+    "route_ratio": 1.27,
+    "seed": 42,
+    "replans": 39,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 43,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.92,
+    "route_ratio": 1.1215,
+    "seed": 44,
+    "replans": 21,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 39.3,
+    "route_ratio": 1.0387,
+    "seed": 45,
+    "replans": 16,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.96,
+    "route_ratio": 1.0161,
+    "seed": 46,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 44.41,
+    "route_ratio": 1.0,
+    "seed": 47,
+    "replans": 17,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 48,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 49,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.41,
+    "route_ratio": 1.0222,
+    "seed": 50,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.23,
+    "route_ratio": 1.0207,
+    "seed": 51,
+    "replans": 18,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 41.2,
+    "route_ratio": 1.0524,
+    "seed": 52,
+    "replans": 17,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.36,
+    "route_ratio": 1.007,
+    "seed": 53,
+    "replans": 16,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 54,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0073,
+    "seed": 55,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 41.58,
+    "route_ratio": 1.0071,
+    "seed": 56,
+    "replans": 17,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.89,
+    "route_ratio": 1.0072,
+    "seed": 57,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 58,
+    "replans": 1,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.53,
+    "route_ratio": 1.0073,
+    "seed": 59,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.31,
+    "route_ratio": 1.0,
+    "seed": 60,
+    "replans": 0,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.65,
+    "route_ratio": 1.0139,
+    "seed": 61,
+    "replans": 12,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 45.87,
+    "route_ratio": 1.0,
+    "seed": 62,
+    "replans": 30,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 44.41,
+    "route_ratio": 1.0134,
+    "seed": 63,
+    "replans": 16,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.54,
+    "route_ratio": 1.0222,
+    "seed": 64,
+    "replans": 17,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 65,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.23,
+    "route_ratio": 1.0137,
+    "seed": 66,
+    "replans": 9,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 47.28,
+    "route_ratio": 1.0442,
+    "seed": 67,
+    "replans": 24,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 68,
+    "replans": 6,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 39.65,
+    "route_ratio": 1.0,
+    "seed": 69,
+    "replans": 4,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 70,
+    "replans": 1,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 55.99,
+    "route_ratio": 1.1756,
+    "seed": 71,
+    "replans": 31,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.94,
+    "route_ratio": 1.0138,
+    "seed": 72,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 54.36,
+    "route_ratio": 1.237,
+    "seed": 73,
+    "replans": 23,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 43.36,
+    "route_ratio": 1.0,
+    "seed": 74,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 39.46,
+    "route_ratio": 1.0,
+    "seed": 75,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 33.01,
+    "route_ratio": 1.0586,
+    "seed": 76,
+    "replans": 14,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.36,
+    "route_ratio": 1.0,
+    "seed": 77,
+    "replans": 11,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 78,
+    "replans": 4,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 64.66,
+    "route_ratio": 1.6332,
+    "seed": 79,
+    "replans": 44,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 80,
+    "replans": 1,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 73.82,
+    "route_ratio": 1.419,
+    "seed": 81,
+    "replans": 39,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 82,
+    "replans": 8,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 61.42,
+    "route_ratio": 1.4707,
+    "seed": 83,
+    "replans": 44,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 48.21,
+    "route_ratio": 1.0378,
+    "seed": 84,
+    "replans": 29,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 85,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 45.28,
+    "route_ratio": 1.0065,
+    "seed": 86,
+    "replans": 29,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 34.25,
+    "route_ratio": 1.0086,
+    "seed": 87,
+    "replans": 10,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 88,
+    "replans": 2,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 89,
+    "replans": 1,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 27.16,
+    "route_ratio": 1.0,
+    "seed": 90,
+    "replans": 3,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 100.09,
+    "route_ratio": 2.5854,
+    "seed": 91,
+    "replans": 63,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.65,
+    "route_ratio": 1.0069,
+    "seed": 92,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 93,
+    "replans": 2,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 40.6,
+    "route_ratio": 1.0,
+    "seed": 94,
+    "replans": 5,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 45.87,
+    "route_ratio": 1.0538,
+    "seed": 95,
+    "replans": 26,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 86.99,
+    "route_ratio": 1.8608,
+    "seed": 96,
+    "replans": 48,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 50.28,
+    "route_ratio": 1.0689,
+    "seed": 97,
+    "replans": 25,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 42.06,
+    "route_ratio": 1.0,
+    "seed": 98,
+    "replans": 13,
+    "stop_reason": "reached goal"
+   },
+   {
+    "reached": true,
+    "hazard_entries": 0,
+    "success": true,
+    "path_m": 36.37,
+    "route_ratio": 1.0,
+    "seed": 99,
+    "replans": 7,
+    "stop_reason": "reached goal"
+   }
+  ]
+ }
+}
